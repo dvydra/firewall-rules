@@ -19,3 +19,2454 @@ Migrating to CreateHosts (20110930090903)
   [1m[36m (0.3ms)[0m  [1mselect sqlite_version(*)[0m
   [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
   [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("hosts")[0m
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2011-09-30 19:21:35 +1000
+Served asset /rails.png - 304 Not Modified (3ms)
+
+
+Started GET "/hosts" for 127.0.0.1 at 2011-09-30 19:21:39 +1000
+
+ActionController::RoutingError (No route matches [GET] "/hosts"):
+  
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (15.3ms)
+
+
+Started GET "/hosts/create" for 127.0.0.1 at 2011-09-30 19:21:43 +1000
+
+ActionController::RoutingError (No route matches [GET] "/hosts/create"):
+  
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/hosts/create" for 127.0.0.1 at 2011-09-30 19:21:55 +1000
+
+ActionController::RoutingError (uninitialized constant HostsController):
+  
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/hosts/create" for 127.0.0.1 at 2011-09-30 19:21:57 +1000
+
+ActionController::RoutingError (uninitialized constant HostsController):
+  
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/hosts/create" for 127.0.0.1 at 2011-09-30 19:22:00 +1000
+
+ActionController::RoutingError (No route matches [GET] "/hosts/create"):
+  
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/hosts/create" for 127.0.0.1 at 2011-09-30 19:22:01 +1000
+
+ActionController::RoutingError (No route matches [GET] "/hosts/create"):
+  
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/host/create" for 127.0.0.1 at 2011-09-30 19:22:03 +1000
+  Processing by HostController#show as HTML
+  Parameters: {"id"=>"create"}
+  [1m[36mHost Load (0.2ms)[0m  [1mSELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1[0m  [["id", "create"]]
+Completed 404 Not Found in 3ms
+
+ActiveRecord::RecordNotFound (Couldn't find Host with id=create):
+  
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/host" for 127.0.0.1 at 2011-09-30 19:22:14 +1000
+  Processing by HostController#index as HTML
+Completed 500 Internal Server Error in 64ms
+
+ActionView::MissingTemplate (Missing template host/index, inherited_resources/base/index, application/index with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/Users/dvydra/development/firewall-rules/app/views"
+):
+  
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/host/new" for 127.0.0.1 at 2011-09-30 19:22:18 +1000
+  Processing by HostController#new as HTML
+Completed 500 Internal Server Error in 7ms
+
+ActionView::MissingTemplate (Missing template host/new, inherited_resources/base/new, application/new with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/Users/dvydra/development/firewall-rules/app/views"
+):
+  
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/host/new" for 127.0.0.1 at 2011-09-30 19:22:28 +1000
+  Processing by HostController#new as HTML
+Completed 500 Internal Server Error in 6ms
+
+ActionView::MissingTemplate (Missing template host/new, inherited_resources/base/new, application/new with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/Users/dvydra/development/firewall-rules/app/views"
+):
+  
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/host/new" for 127.0.0.1 at 2011-09-30 19:22:30 +1000
+  Processing by HostController#new as HTML
+Completed 500 Internal Server Error in 7ms
+
+ActionView::MissingTemplate (Missing template host/new, inherited_resources/base/new, application/new with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/Users/dvydra/development/firewall-rules/app/views"
+):
+  
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/host/new" for 127.0.0.1 at 2011-09-30 19:22:32 +1000
+  Processing by HostController#new as HTML
+Completed 500 Internal Server Error in 7ms
+
+ActionView::MissingTemplate (Missing template host/new, inherited_resources/base/new, application/new with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/Users/dvydra/development/firewall-rules/app/views"
+):
+  
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/host/new" for 127.0.0.1 at 2011-09-30 19:23:31 +1000
+  Processing by HostController#new as HTML
+Rendered host/new.html.haml within layouts/application (1.5ms)
+Compiled application.css  (1ms)  (pid 87700)
+Compiled host.css  (13ms)  (pid 87700)
+Compiled application.js  (4ms)  (pid 87700)
+Compiled jquery.js  (32ms)  (pid 87700)
+Compiled jquery_ujs.js  (0ms)  (pid 87700)
+Compiled host.js  (240ms)  (pid 87700)
+Completed 200 OK in 385ms (Views: 383.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 19:23:33 +1000
+Served asset /host.css - 200 OK (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 19:23:33 +1000
+Served asset /jquery_ujs.js - 200 OK (6ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 19:23:33 +1000
+Served asset /host.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 19:23:33 +1000
+Served asset /jquery.js - 200 OK (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 19:23:33 +1000
+Served asset /application.js - 200 OK (11ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 19:23:33 +1000
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/host/new" for 127.0.0.1 at 2011-09-30 19:41:31 +1000
+  Processing by HostController#new as HTML
+Rendered host/new.html.haml within layouts/application (31.1ms)
+Completed 500 Internal Server Error in 39ms
+
+ActionView::Template::Error (undefined method `simple_form_for' for #<#<Class:0x007fb0421d7550>:0x007fb04211d0b0>):
+    1: %h1 Create host
+    2: - simple_form_for @host do |f|
+    3:   f.input :name
+    4:   f.input :location
+    5:   f.input :hostname
+  app/views/host/new.html.haml:2:in `_app_views_host_new_html_haml___3276256948150822200_70197499707740'
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.3ms)
+
+
+Started GET "/host/new" for 127.0.0.1 at 2011-09-30 19:43:33 +1000
+  Processing by HostController#new as HTML
+Rendered host/new.html.haml within layouts/application (257.1ms)
+Completed 500 Internal Server Error in 306ms
+
+ActionView::Template::Error (undefined method `hosts_path' for #<#<Class:0x007fa6839f2c30>:0x007fa6824454f0>):
+    1: %h1 Create host
+    2: - simple_form_for @host do |f|
+    3:   f.input :name
+    4:   f.input :location
+    5:   f.input :hostname
+  app/views/host/new.html.haml:2:in `_app_views_host_new_html_haml___4227992787296050837_70176562314760'
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.6ms)
+
+
+Started GET "/host/new" for 127.0.0.1 at 2011-09-30 20:06:13 +1000
+  Processing by HostController#new as HTML
+Rendered host/new.html.haml within layouts/application (34.3ms)
+Completed 500 Internal Server Error in 166ms
+
+ActionView::Template::Error (undefined method `hosts_path' for #<#<Class:0x007ff06bb1f0e0>:0x007ff06ed8bb78>):
+    1: %h1 Create host
+    2: - form_for @host do |f|
+    3:   f.label :name, "Name"
+    4:   f.text_field :name
+    5:   f.label :location, "Location"
+  app/views/host/new.html.haml:2:in `_app_views_host_new_html_haml__3444286512008387773_70335300777980'
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (20.6ms)
+
+
+Started GET "/host/new" for 127.0.0.1 at 2011-09-30 20:07:23 +1000
+
+ActionController::RoutingError (uninitialized constant HostController):
+  
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/host/new" for 127.0.0.1 at 2011-09-30 20:07:25 +1000
+
+ActionController::RoutingError (uninitialized constant HostController):
+  
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/host/new" for 127.0.0.1 at 2011-09-30 20:08:04 +1000
+
+ActionController::RoutingError (uninitialized constant HostController):
+  
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/hosts/new" for 127.0.0.1 at 2011-09-30 20:08:11 +1000
+
+ActionController::RoutingError (No route matches [GET] "/hosts/new"):
+  
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/hosts/new" for 127.0.0.1 at 2011-09-30 20:08:18 +1000
+  Processing by HostsController#new as HTML
+Rendered hosts/new.html.haml within layouts/application (11.8ms)
+Completed 200 OK in 31ms (Views: 29.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:08:18 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:08:18 +1000
+Served asset /host.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:08:18 +1000
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:08:18 +1000
+Served asset /host.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:08:18 +1000
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:08:18 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/hosts/new" for 127.0.0.1 at 2011-09-30 20:08:23 +1000
+  Processing by HostsController#new as HTML
+Rendered hosts/new.html.haml within layouts/application (8.0ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:08:23 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:08:24 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:08:24 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:08:24 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:08:24 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:08:24 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/new" for 127.0.0.1 at 2011-09-30 20:09:16 +1000
+  Processing by HostsController#new as HTML
+Rendered hosts/new.html.haml within layouts/application (59.4ms)
+Completed 500 Internal Server Error in 66ms
+
+ActionView::Template::Error (undefined method `simple_form_for' for #<#<Class:0x007ff701a98508>:0x007ff701a71ef8>):
+    1: %h1 Create host
+    2: = simple_form_for @host do |f|
+    3:   f.input :name
+    4:   f.input :location
+    5:   f.input :hostname
+  app/views/hosts/new.html.haml:2:in `_app_views_hosts_new_html_haml___3481028225013055446_70349430657040'
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.8ms)
+
+
+Started GET "/hosts/new" for 127.0.0.1 at 2011-09-30 20:09:30 +1000
+  Processing by HostsController#new as HTML
+Rendered hosts/new.html.haml within layouts/application (2030.8ms)
+Completed 200 OK in 2124ms (Views: 2122.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:09:33 +1000
+Served asset /host.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:09:33 +1000
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:09:33 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:09:33 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:09:33 +1000
+Served asset /host.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:09:33 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/new" for 127.0.0.1 at 2011-09-30 20:10:00 +1000
+  Processing by HostsController#new as HTML
+Rendered hosts/new.html.haml within layouts/application (20.3ms)
+Completed 200 OK in 30ms (Views: 28.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/hosts/new" for 127.0.0.1 at 2011-09-30 20:10:01 +1000
+  Processing by HostsController#new as HTML
+Rendered hosts/new.html.haml within layouts/application (16.0ms)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/hosts/new" for 127.0.0.1 at 2011-09-30 20:10:11 +1000
+  Processing by HostsController#new as HTML
+Rendered hosts/new.html.haml within layouts/application (52.4ms)
+Completed 200 OK in 61ms (Views: 59.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/hosts/new" for 127.0.0.1 at 2011-09-30 20:10:12 +1000
+  Processing by HostsController#new as HTML
+Rendered hosts/new.html.haml within layouts/application (20.2ms)
+Completed 200 OK in 29ms (Views: 26.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/hosts/new" for 127.0.0.1 at 2011-09-30 20:10:14 +1000
+  Processing by HostsController#new as HTML
+Rendered hosts/new.html.haml within layouts/application (16.9ms)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:10:14 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:10:14 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:10:14 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:10:14 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:10:14 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:10:14 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/hosts" for 127.0.0.1 at 2011-09-30 20:10:36 +1000
+  Processing by HostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"G08V8YL3HV32PmUzkPGflwFUEzPSP2VJoEGS2pIrg6k=", "host"=>{"name"=>"nas", "location"=>"loungeroom", "hostname"=>"192.168.1.100"}, "commit"=>"Create Host"}
+  [1m[36mSQL (1834.3ms)[0m  [1mINSERT INTO "hosts" ("created_at", "hostname", "location", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 30 Sep 2011 10:10:36 UTC +00:00], ["hostname", "192.168.1.100"], ["location", "loungeroom"], ["name", "nas"], ["updated_at", Fri, 30 Sep 2011 10:10:36 UTC +00:00]]
+Redirected to http://localhost:3000/hosts/1
+Completed 302 Found in 2783ms
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:10:38 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mHost Load (0.2ms)[0m  SELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 500 Internal Server Error in 11ms
+
+ActionView::MissingTemplate (Missing template hosts/show, inherited_resources/base/show, application/show with {:handlers=>[:erb, :builder, :coffee, :haml], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/Users/dvydra/development/firewall-rules/app/views"
+):
+  
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:16:00 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHost Load (0.2ms)[0m  [1mSELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered hosts/show.html.haml within layouts/application (9.0ms)
+Completed 200 OK in 76ms (Views: 72.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:16:01 +1000
+Served asset /host.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:16:01 +1000
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:16:01 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:16:01 +1000
+Served asset /host.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:16:01 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:16:01 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:16:21 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1  [["id", "1"]]
+ERROR: compiling _app_views_hosts_show_html_haml__2288776777444117756_70178639413940 RAISED /Users/dvydra/development/firewall-rules/app/views/hosts/show.html.haml:3: syntax error, unexpected tLABEL
+Function body:           def _app_views_hosts_show_html_haml__2288776777444117756_70178639413940(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "hosts/show";_old_output_buffer = @output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :preserve=>["textarea", "pre", "code"], :attr_wrapper=>"'", :ugly=>false, :format=>:html5, :encoding=>"UTF-8", :escape_html=>true, :escape_attrs=>true});_erbout = _hamlout.buffer;__in_erb_template = true;;_hamlout.push_text("<h1>Host details</h1>\n<name>\n  #{_hamlout.adjust_tabs(1); 
+
+_hamlout.format_script_false_false_false_true_false_true_false(( Name:
+));}\n  #{_hamlout.format_script_false_false_false_true_false_true_false(( @host.name
+));}\n</name>\n", -1, false);::Haml::Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_view/template.rb:282:in `module_eval'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_view/template.rb:282:in `compile'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_view/template.rb:190:in `compile!'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_view/template.rb:143:in `block in render'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/activesupport-3.1.0/lib/active_support/notifications.rb:55:in `instrument'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_view/template.rb:142:in `render'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:40:in `block (2 levels) in render_template'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:39:in `block in render_template'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:12:in `block in render'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:99:in `render'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/dvydra/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_controller/metal/mime_responds.rb:268:in `block in retrieve_response_from_mimes'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_controller/metal/responder.rb:231:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_controller/metal/responder.rb:231:in `default_render'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_controller/metal/responder.rb:160:in `to_html'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/responders-0.6.4/lib/responders/flash_responder.rb:93:in `to_html'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_controller/metal/responder.rb:153:in `respond'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_controller/metal/responder.rb:146:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_controller/metal/mime_responds.rb:238:in `respond_with'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/inherited_resources-1.3.0/lib/inherited_resources/actions.rb:13:in `show'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:416:in `_run__2660555318778573349__process_action__1360762374038294177__callbacks'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:121:in `process'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_controller/metal.rb:193:in `dispatch'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_controller/metal.rb:236:in `block in action'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `block in call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `block in recognize'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:89:in `optimized_each'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:531:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/sass-3.1.7/lib/sass/plugin/rack.rb:54:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/rack-1.3.3/lib/rack/etag.rb:23:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/rack-1.3.3/lib/rack/conditionalget.rb:25:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/rack-1.3.3/lib/rack/session/abstract/id.rb:195:in `context'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/rack-1.3.3/lib/rack/session/abstract/id.rb:190:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/cookies.rb:326:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/activerecord-3.1.0/lib/active_record/query_cache.rb:62:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/rack-1.3.3/lib/rack/sendfile.rb:101:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/railties-3.1.0/lib/rails/rack/logger.rb:13:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/rack-1.3.3/lib/rack/methodoverride.rb:24:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/rack-1.3.3/lib/rack/runtime.rb:17:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/activesupport-3.1.0/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/rack-1.3.3/lib/rack/lock.rb:15:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/railties-3.1.0/lib/rails/engine.rb:455:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/railties-3.1.0/lib/rails/rack/content_length.rb:16:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/railties-3.1.0/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/rack-1.3.3/lib/rack/handler/webrick.rb:59:in `service'
+/Users/dvydra/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/dvydra/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/dvydra/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered hosts/show.html.haml within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (/Users/dvydra/development/firewall-rules/app/views/hosts/show.html.haml:3: syntax error, unexpected tLABEL):
+    1: %h1 Host details
+    2: %name
+    3:   = Name:
+    4:   = @host.name
+  
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.9ms)
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:16:26 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHost Load (0.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered hosts/show.html.haml within layouts/application (8.2ms)
+Completed 200 OK in 18ms (Views: 15.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:16:26 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:16:26 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:16:26 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:16:26 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:16:26 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:16:26 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:16:32 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1  [["id", "1"]]
+Rendered hosts/show.html.haml within layouts/application (8.0ms)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:16:32 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:16:32 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:16:32 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:16:32 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:16:32 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:16:32 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:16:36 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHost Load (0.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered hosts/show.html.haml within layouts/application (7.7ms)
+Completed 200 OK in 18ms (Views: 15.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:16:37 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:16:37 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:16:37 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:16:37 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:16:37 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:16:37 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:16:42 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mHost Load (0.2ms)[0m  SELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1  [["id", "1"]]
+Rendered hosts/show.html.haml within layouts/application (71.3ms)
+Completed 500 Internal Server Error in 79ms
+
+ActionView::Template::Error (undefined method `b' for #<#<Class:0x007fa77a0dbb18>:0x007fa779fe7860>):
+    1: %h1 Host details
+    2: %name
+    3:   =b "Name:"
+    4:   = @host.name
+  app/views/hosts/show.html.haml:3:in `_app_views_hosts_show_html_haml__2288776777444117756_70178641487680'
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.6ms)
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:16:54 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHost Load (0.2ms)[0m  [1mSELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered hosts/show.html.haml within layouts/application (7.4ms)
+Completed 200 OK in 17ms (Views: 14.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:16:54 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:16:54 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:16:54 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:16:54 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:16:54 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:16:54 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:17:01 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mHost Load (0.2ms)[0m  SELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1  [["id", "1"]]
+Rendered hosts/show.html.haml within layouts/application (7.5ms)
+Completed 200 OK in 17ms (Views: 14.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:17:01 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:17:01 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:17:01 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:17:01 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:17:01 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:17:01 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:17:02 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHost Load (0.2ms)[0m  [1mSELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered hosts/show.html.haml within layouts/application (6.0ms)
+Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:17:02 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:17:02 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:17:02 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:17:02 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:17:02 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:17:02 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:17:12 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1  [["id", "1"]]
+Rendered hosts/show.html.haml within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    1: %h1 Host details
+    2: name%
+    3:   %strong= "Name:"
+    4:   = @host.name
+  app/views/hosts/show.html.haml:3
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.6ms)
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:17:19 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHost Load (0.2ms)[0m  [1mSELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered hosts/show.html.haml within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (Invalid tag: "%#name".):
+    1: %h1 Host details
+    2: %#name
+    3:   %strong= "Name:"
+    4:   = @host.name
+  app/views/hosts/show.html.haml:2
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.1ms)
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:17:28 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mHost Load (0.2ms)[0m  SELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1  [["id", "1"]]
+Rendered hosts/show.html.haml within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %div and nested within it.):
+    1: %h1 Host details
+    2: #name%
+    3:   %strong= "Name:"
+    4:   = @host.name
+  app/views/hosts/show.html.haml:3
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.4ms)
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:17:32 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHost Load (0.2ms)[0m  [1mSELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered hosts/show.html.haml within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %div and nested within it.):
+    1: %h1 Host details
+    2: .name%
+    3:   %strong= "Name:"
+    4:   = @host.name
+  app/views/hosts/show.html.haml:3
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.0ms)
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:18:57 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1  [["id", "1"]]
+Rendered hosts/show.html.haml within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (Invalid tag: "%{:id=>"name"}".):
+    1: %h1 Host details
+    2: %{:id=>"name"}
+    3:   %strong= "Name:"
+    4:   = @host.name
+  app/views/hosts/show.html.haml:2
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.0ms)
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:19:04 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHost Load (0.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered hosts/show.html.haml within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (Invalid tag: "%{:id=>"name"}".):
+    1: %h1 Host details
+    2: %{:id=>"name"}
+    3:   %strong= "Name:"
+    4:   = @host.name
+  app/views/hosts/show.html.haml:2
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.8ms)
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:19:10 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mHost Load (0.2ms)[0m  SELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1  [["id", "1"]]
+Rendered hosts/show.html.haml within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (Invalid tag: "%{:id=>:name}".):
+    1: %h1 Host details
+    2: %{:id=>:name}
+    3:   %strong= "Name:"
+    4:   = @host.name
+  app/views/hosts/show.html.haml:2
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.4ms)
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:19:18 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHost Load (0.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered hosts/show.html.haml within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (Invalid tag: "%{:id=>:name}=".):
+    1: %h1 Host details
+    2: %{:id=>:name}=
+    3:   %strong= "Name:"
+    4:   = @host.name
+  app/views/hosts/show.html.haml:2
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.1ms)
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:19:21 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1  [["id", "1"]]
+Rendered hosts/show.html.haml within layouts/application (34.9ms)
+Completed 500 Internal Server Error in 43ms
+
+ActionView::Template::Error (Invalid tag: "%".):
+    1: %h1 Host details
+    2: %
+    3:   %strong= "Name:"
+    4:   = @host.name
+  app/views/hosts/show.html.haml:2
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.7ms)
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:19:22 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHost Load (0.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered hosts/show.html.haml within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (Invalid tag: "%".):
+    1: %h1 Host details
+    2: %
+    3:   %strong= "Name:"
+    4:   = @host.name
+  app/views/hosts/show.html.haml:2
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.2ms)
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:19:27 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1  [["id", "1"]]
+Rendered hosts/show.html.haml within layouts/application (41.9ms)
+Completed 200 OK in 51ms (Views: 48.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:19:28 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:19:28 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:19:28 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:19:28 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:19:28 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:19:28 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:19:28 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHost Load (0.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered hosts/show.html.haml within layouts/application (5.8ms)
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:19:28 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:19:28 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:19:28 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:19:28 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:19:28 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:19:28 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:19:35 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1  [["id", "1"]]
+Rendered hosts/show.html.haml within layouts/application (47.6ms)
+Completed 200 OK in 57ms (Views: 54.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:19:35 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:19:35 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:19:35 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:19:35 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:19:35 +1000
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:19:35 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:20:10 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHost Load (0.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered hosts/show.html.haml within layouts/application (9.1ms)
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:20:11 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:20:11 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:20:11 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:20:11 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:20:11 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:20:11 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/1/edit" for 127.0.0.1 at 2011-09-30 20:20:15 +1000
+  Processing by HostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 500 Internal Server Error in 8ms
+
+ActionView::MissingTemplate (Missing template hosts/edit, inherited_resources/base/edit, application/edit with {:handlers=>[:erb, :builder, :coffee, :haml], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/Users/dvydra/development/firewall-rules/app/views"
+):
+  
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/hosts/1/edit" for 127.0.0.1 at 2011-09-30 20:20:40 +1000
+  Processing by HostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHost Load (0.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered hosts/edit.html.haml within layouts/application (252.2ms)
+Completed 200 OK in 262ms (Views: 259.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:20:41 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:20:41 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:20:41 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:20:41 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:20:41 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:20:41 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/" for 127.0.0.1 at 2011-09-30 20:24:15 +1000
+  Processing by HostsController#index as HTML
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" 
+Rendered hosts/index.html.haml within layouts/application (8.8ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/hosts/" for 127.0.0.1 at 2011-09-30 20:24:31 +1000
+  Processing by HostsController#index as HTML
+  [1m[36mHost Load (0.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" [0m
+Rendered hosts/index.html.haml within layouts/application (8.6ms)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/hosts/" for 127.0.0.1 at 2011-09-30 20:24:51 +1000
+  Processing by HostsController#index as HTML
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" 
+Rendered hosts/index.html.haml within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"hosts"}):
+    1: - @hosts.each do |h|
+    2:   = link_to edit_host_path, "#{h.name}"
+  app/views/hosts/index.html.haml:2:in `block in _app_views_hosts_index_html_haml___853853495643067012_70178651774060'
+  app/views/hosts/index.html.haml:1:in `_app_views_hosts_index_html_haml___853853495643067012_70178651774060'
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/hosts/" for 127.0.0.1 at 2011-09-30 20:25:26 +1000
+  Processing by HostsController#index as HTML
+  [1m[36mHost Load (0.2ms)[0m  [1mSELECT "hosts".* FROM "hosts" [0m
+Rendered hosts/index.html.haml within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 52ms
+
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"hosts"}):
+    1: - @hosts.each do |h|
+    2:   = link_to edit_host_url, "#{h.name}"
+  app/views/hosts/index.html.haml:2:in `block in _app_views_hosts_index_html_haml___2396899040923042511_70252003491920'
+  app/views/hosts/index.html.haml:1:in `_app_views_hosts_index_html_haml___2396899040923042511_70252003491920'
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/hosts/" for 127.0.0.1 at 2011-09-30 20:25:31 +1000
+  Processing by HostsController#index as HTML
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" 
+Rendered hosts/index.html.haml within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"hosts"}):
+    1: - @hosts.each do |h|
+    2:   = link_to edit_host_url, "#{h.name}"
+  app/views/hosts/index.html.haml:2:in `block in _app_views_hosts_index_html_haml___2396899040923042511_70252003491920'
+  app/views/hosts/index.html.haml:1:in `_app_views_hosts_index_html_haml___2396899040923042511_70252003491920'
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/hosts/" for 127.0.0.1 at 2011-09-30 20:25:51 +1000
+  Processing by HostsController#index as HTML
+  [1m[36mHost Load (0.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" [0m
+Rendered hosts/index.html.haml within layouts/application (4.1ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"hosts"}):
+    1: - @hosts.each do |h|
+    2:   = link_to host_url, h
+  app/views/hosts/index.html.haml:2:in `block in _app_views_hosts_index_html_haml___2396899040923042511_70252009603400'
+  app/views/hosts/index.html.haml:1:in `_app_views_hosts_index_html_haml___2396899040923042511_70252009603400'
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/hosts/" for 127.0.0.1 at 2011-09-30 20:25:52 +1000
+  Processing by HostsController#index as HTML
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" 
+Rendered hosts/index.html.haml within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"hosts"}):
+    1: - @hosts.each do |h|
+    2:   = link_to host_url, h
+  app/views/hosts/index.html.haml:2:in `block in _app_views_hosts_index_html_haml___2396899040923042511_70252009603400'
+  app/views/hosts/index.html.haml:1:in `_app_views_hosts_index_html_haml___2396899040923042511_70252009603400'
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/hosts/" for 127.0.0.1 at 2011-09-30 20:25:57 +1000
+  Processing by HostsController#index as HTML
+  [1m[36mHost Load (0.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" [0m
+Rendered hosts/index.html.haml within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"hosts"}):
+    1: - @hosts.each do |h|
+    2:   = link_to host_url, h.id
+  app/views/hosts/index.html.haml:2:in `block in _app_views_hosts_index_html_haml___2396899040923042511_70252011787600'
+  app/views/hosts/index.html.haml:1:in `_app_views_hosts_index_html_haml___2396899040923042511_70252011787600'
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/hosts/" for 127.0.0.1 at 2011-09-30 20:26:27 +1000
+  Processing by HostsController#index as HTML
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" 
+Rendered hosts/index.html.haml within layouts/application (11.1ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"hosts"}):
+    1: - @hosts.each do |h|
+    2:   = link_to h.name, host_path
+  app/views/hosts/index.html.haml:2:in `block in _app_views_hosts_index_html_haml___2396899040923042511_70252001868980'
+  app/views/hosts/index.html.haml:1:in `_app_views_hosts_index_html_haml___2396899040923042511_70252001868980'
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/hosts/" for 127.0.0.1 at 2011-09-30 20:26:29 +1000
+  Processing by HostsController#index as HTML
+  [1m[36mHost Load (0.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" [0m
+Rendered hosts/index.html.haml within layouts/application (8.5ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"hosts"}):
+    1: - @hosts.each do |h|
+    2:   = link_to h.name, host_path
+  app/views/hosts/index.html.haml:2:in `block in _app_views_hosts_index_html_haml___2396899040923042511_70252001868980'
+  app/views/hosts/index.html.haml:1:in `_app_views_hosts_index_html_haml___2396899040923042511_70252001868980'
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/hosts/" for 127.0.0.1 at 2011-09-30 20:27:04 +1000
+  Processing by HostsController#index as HTML
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" 
+Rendered hosts/index.html.haml within layouts/application (9.3ms)
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:27:05 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:27:05 +1000
+Served asset /host.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:05 +1000
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:05 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:05 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:05 +1000
+Served asset /host.js - 304 Not Modified (2ms)
+
+
+Started GET "/hosts/" for 127.0.0.1 at 2011-09-30 20:27:42 +1000
+  Processing by HostsController#index as HTML
+  [1m[36mHost Load (0.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" [0m
+Rendered hosts/index.html.haml within layouts/application (9.2ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:27:42 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:42 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:27:42 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:42 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:42 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:42 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:27:44 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mHost Load (0.2ms)[0m  SELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1  [["id", "1"]]
+Rendered hosts/show.html.haml within layouts/application (9.7ms)
+Completed 200 OK in 19ms (Views: 16.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:44 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:44 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:27:44 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:27:44 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:44 +1000
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:44 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:27:48 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHost Load (0.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered hosts/show.html.haml within layouts/application (7.4ms)
+Completed 200 OK in 16ms (Views: 14.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:48 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:27:48 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:48 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:48 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:27:48 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:48 +1000
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:27:49 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1  [["id", "1"]]
+Rendered hosts/show.html.haml within layouts/application (6.2ms)
+Completed 200 OK in 16ms (Views: 13.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:27:49 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:49 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:49 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:49 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:49 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:27:49 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/1" for 127.0.0.1 at 2011-09-30 20:27:52 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHost Load (0.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered hosts/show.html.haml within layouts/application (6.1ms)
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:27:52 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:52 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:52 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:52 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:27:52 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:52 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/" for 127.0.0.1 at 2011-09-30 20:27:53 +1000
+  Processing by HostsController#index as HTML
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" 
+Rendered hosts/index.html.haml within layouts/application (10.0ms)
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:27:54 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:54 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:54 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:54 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:54 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:27:54 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/1/edit" for 127.0.0.1 at 2011-09-30 20:27:54 +1000
+  Processing by HostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHost Load (0.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered hosts/edit.html.haml within layouts/application (249.8ms)
+Completed 200 OK in 259ms (Views: 256.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:55 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:27:55 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:55 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:55 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:27:55 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:27:55 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/1/edit" for 127.0.0.1 at 2011-09-30 20:28:02 +1000
+  Processing by HostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1  [["id", "1"]]
+Rendered hosts/edit.html.haml within layouts/application (16.8ms)
+Completed 200 OK in 26ms (Views: 23.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:02 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:02 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:28:02 +1000
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:02 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:02 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:28:02 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/" for 127.0.0.1 at 2011-09-30 20:28:04 +1000
+  Processing by HostsController#index as HTML
+  [1m[36mHost Load (0.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" [0m
+Rendered hosts/index.html.haml within layouts/application (42.6ms)
+Completed 200 OK in 50ms (Views: 49.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:04 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:28:04 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:04 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:28:04 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:04 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:04 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/1/edit" for 127.0.0.1 at 2011-09-30 20:28:05 +1000
+  Processing by HostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mHost Load (0.2ms)[0m  SELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1  [["id", "1"]]
+Rendered hosts/edit.html.haml within layouts/application (17.3ms)
+Completed 200 OK in 26ms (Views: 24.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:05 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:05 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:28:05 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:05 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:05 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:28:05 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/1/edit" for 127.0.0.1 at 2011-09-30 20:28:33 +1000
+  Processing by HostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHost Load (0.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered hosts/edit.html.haml within layouts/application (17.0ms)
+Completed 200 OK in 26ms (Views: 23.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:28:34 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:34 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:34 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:34 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:34 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:28:34 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/" for 127.0.0.1 at 2011-09-30 20:28:35 +1000
+  Processing by HostsController#index as HTML
+Rendered hosts/index.html.haml within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (Invalid tag: "% "#{h.name}: #{h.hostname}", edit_host_path(h)".):
+    1: %h1 Hosts
+    2: - @hosts.each do |h|
+    3:   % "#{h.name}: #{h.hostname}", edit_host_path(h)
+    4:   = link_to
+  app/views/hosts/index.html.haml:3
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (36.4ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (40.8ms)
+
+
+Started GET "/hosts/" for 127.0.0.1 at 2011-09-30 20:28:39 +1000
+  Processing by HostsController#index as HTML
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" 
+Rendered hosts/index.html.haml within layouts/application (9.5ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:28:39 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:39 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:28:39 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:39 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:39 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:39 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/" for 127.0.0.1 at 2011-09-30 20:28:40 +1000
+  Processing by HostsController#index as HTML
+  [1m[36mHost Load (0.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" [0m
+Rendered hosts/index.html.haml within layouts/application (42.1ms)
+Completed 200 OK in 50ms (Views: 48.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:41 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:41 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:28:41 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:41 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:28:41 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:41 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/" for 127.0.0.1 at 2011-09-30 20:28:55 +1000
+  Processing by HostsController#index as HTML
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" 
+Rendered hosts/index.html.haml within layouts/application (9.7ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:55 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:55 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:55 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:55 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:28:55 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:28:55 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/" for 127.0.0.1 at 2011-09-30 20:28:56 +1000
+  Processing by HostsController#index as HTML
+  [1m[36mHost Load (0.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" [0m
+Rendered hosts/index.html.haml within layouts/application (8.0ms)
+Completed 200 OK in 50ms (Views: 48.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:28:56 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:28:56 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:56 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:56 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:56 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:56 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/" for 127.0.0.1 at 2011-09-30 20:28:58 +1000
+  Processing by HostsController#index as HTML
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" 
+Rendered hosts/index.html.haml within layouts/application (9.8ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:58 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:58 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:58 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:28:58 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:28:58 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:28:58 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/" for 127.0.0.1 at 2011-09-30 20:29:10 +1000
+  Processing by HostsController#index as HTML
+Rendered hosts/index.html.haml within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (There's no Ruby code for = to evaluate.):
+    1: %h1 Hosts
+    2: - @hosts.each do |h|
+    3:   %div #{h.name}: #{h.hostname} link_to "Edit", edit_host_path(h)
+    4:   =
+  app/views/hosts/index.html.haml:4
+
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/dvydra/.rvm/gems/ruby-1.9.2-p290@firewall_rules/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.9ms)
+
+
+Started GET "/hosts/" for 127.0.0.1 at 2011-09-30 20:29:16 +1000
+  Processing by HostsController#index as HTML
+  [1m[36mHost Load (0.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" [0m
+Rendered hosts/index.html.haml within layouts/application (9.3ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:29:16 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:29:16 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:29:16 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:29:16 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:29:16 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:29:16 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/" for 127.0.0.1 at 2011-09-30 20:29:17 +1000
+  Processing by HostsController#index as HTML
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" 
+Rendered hosts/index.html.haml within layouts/application (7.1ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:29:17 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:29:17 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:29:17 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:29:17 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:29:17 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:29:17 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/" for 127.0.0.1 at 2011-09-30 20:29:24 +1000
+  Processing by HostsController#index as HTML
+  [1m[36mHost Load (0.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" [0m
+Rendered hosts/index.html.haml within layouts/application (10.1ms)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:29:24 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:29:24 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:29:24 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:29:24 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:29:24 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:29:24 +1000
+Served asset /application.js - 304 Not Modified (17ms)
+
+
+Started GET "/hosts/" for 127.0.0.1 at 2011-09-30 20:29:25 +1000
+  Processing by HostsController#index as HTML
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" 
+Rendered hosts/index.html.haml within layouts/application (7.9ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:29:25 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:29:25 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:29:25 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:29:25 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:29:25 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:29:25 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/1/edit" for 127.0.0.1 at 2011-09-30 20:30:26 +1000
+  Processing by HostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHost Load (0.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered hosts/edit.html.haml within layouts/application (17.6ms)
+Completed 200 OK in 27ms (Views: 24.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:30:26 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:30:26 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:30:26 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:30:26 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:30:26 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:30:26 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/1/edit" for 127.0.0.1 at 2011-09-30 20:30:27 +1000
+  Processing by HostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1  [["id", "1"]]
+Rendered hosts/edit.html.haml within layouts/application (20.6ms)
+Completed 200 OK in 30ms (Views: 28.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:30:27 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:30:27 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:30:27 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:30:27 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:30:27 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:30:27 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/1/edit" for 127.0.0.1 at 2011-09-30 20:40:04 +1000
+  Processing by HostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHost Load (0.2ms)[0m  [1mSELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered hosts/edit.html.haml within layouts/application (18.0ms)
+Completed 200 OK in 28ms (Views: 25.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:40:04 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:04 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:04 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:04 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:04 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:40:04 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/1/edit" for 127.0.0.1 at 2011-09-30 20:40:06 +1000
+  Processing by HostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1  [["id", "1"]]
+Rendered hosts/edit.html.haml within layouts/application (54.6ms)
+Completed 200 OK in 64ms (Views: 61.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:06 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:06 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:40:06 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:06 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:40:06 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:06 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/1/edit" for 127.0.0.1 at 2011-09-30 20:40:13 +1000
+  Processing by HostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHost Load (0.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered hosts/edit.html.haml within layouts/application (20.0ms)
+Completed 200 OK in 29ms (Views: 27.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:13 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:40:13 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:13 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:40:13 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:13 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:13 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/hosts" for 127.0.0.1 at 2011-09-30 20:40:15 +1000
+  Processing by HostsController#index as HTML
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" 
+Rendered hosts/index.html.haml within layouts/application (7.9ms)
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:40:15 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:15 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:15 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:40:15 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:15 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:15 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/1/edit" for 127.0.0.1 at 2011-09-30 20:40:16 +1000
+  Processing by HostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHost Load (0.2ms)[0m  [1mSELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered hosts/edit.html.haml within layouts/application (52.7ms)
+Completed 200 OK in 62ms (Views: 59.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:16 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:16 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:16 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:40:16 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:16 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:40:16 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/hosts" for 127.0.0.1 at 2011-09-30 20:40:45 +1000
+  Processing by HostsController#index as HTML
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" 
+Rendered hosts/index.html.haml within layouts/application (10.4ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:40:45 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:45 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:40:45 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:45 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:45 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:45 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/hosts/new" for 127.0.0.1 at 2011-09-30 20:40:47 +1000
+  Processing by HostsController#new as HTML
+Rendered hosts/new.html.haml within layouts/application (18.6ms)
+Completed 200 OK in 27ms (Views: 25.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:40:47 +1000
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:47 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:47 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:40:47 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:47 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:40:47 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/hosts" for 127.0.0.1 at 2011-09-30 20:41:05 +1000
+  Processing by HostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"G08V8YL3HV32PmUzkPGflwFUEzPSP2VJoEGS2pIrg6k=", "host"=>{"name"=>"windows pc", "location"=>"loungeroom", "hostname"=>"192.168.1.200"}, "commit"=>"Create Host"}
+  [1m[36mSQL (22.6ms)[0m  [1mINSERT INTO "hosts" ("created_at", "hostname", "location", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 30 Sep 2011 10:41:05 UTC +00:00], ["hostname", "192.168.1.200"], ["location", "loungeroom"], ["name", "windows pc"], ["updated_at", Fri, 30 Sep 2011 10:41:05 UTC +00:00]]
+Redirected to http://localhost:3000/hosts/2
+Completed 302 Found in 41ms
+
+
+Started GET "/hosts/2" for 127.0.0.1 at 2011-09-30 20:41:05 +1000
+  Processing by HostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" WHERE "hosts"."id" = ? LIMIT 1  [["id", "2"]]
+Rendered hosts/show.html.haml within layouts/application (13.7ms)
+Completed 200 OK in 28ms (Views: 25.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:41:05 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:41:05 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:41:05 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:41:05 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:41:05 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:41:05 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/hosts" for 127.0.0.1 at 2011-09-30 20:41:08 +1000
+  Processing by HostsController#index as HTML
+  [1m[36mHost Load (0.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" [0m
+Rendered hosts/index.html.haml within layouts/application (8.6ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:41:08 +1000
+Served asset /host.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:41:08 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:41:08 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:41:08 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:41:08 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:41:08 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/hosts" for 127.0.0.1 at 2011-09-30 20:41:10 +1000
+  Processing by HostsController#index as HTML
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" 
+Rendered hosts/index.html.haml within layouts/application (8.9ms)
+Completed 200 OK in 19ms (Views: 16.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:41:10 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:41:10 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:41:10 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:41:10 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:41:10 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:41:10 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/hosts" for 127.0.0.1 at 2011-09-30 20:41:30 +1000
+  Processing by HostsController#index as HTML
+  [1m[36mHost Load (0.1ms)[0m  [1mSELECT "hosts".* FROM "hosts" [0m
+Rendered hosts/index.html.haml within layouts/application (11.0ms)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:41:31 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:41:31 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:41:31 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:41:31 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:41:31 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:41:31 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/hosts" for 127.0.0.1 at 2011-09-30 20:41:31 +1000
+  Processing by HostsController#index as HTML
+  [1m[35mHost Load (0.1ms)[0m  SELECT "hosts".* FROM "hosts" 
+Rendered hosts/index.html.haml within layouts/application (8.9ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-30 20:41:32 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-09-30 20:41:32 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.css?body=1" for 127.0.0.1 at 2011-09-30 20:41:32 +1000
+Served asset /host.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-30 20:41:32 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/host.js?body=1" for 127.0.0.1 at 2011-09-30 20:41:32 +1000
+Served asset /host.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-30 20:41:32 +1000
+Served asset /application.js - 304 Not Modified (0ms)

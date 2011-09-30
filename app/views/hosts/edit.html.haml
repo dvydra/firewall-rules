@@ -1,0 +1,7 @@
+%h1 Edit host
+= simple_form_for @host do |f|
+ = f.input :name
+ = f.input :location
+ = f.input :hostname
+ = f.button :submit
+.back= link_to "back", hosts_path

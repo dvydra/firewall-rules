@@ -1,0 +1,7 @@
+%h1 Hosts
+- @hosts.each do |h|
+  %div
+    #{h.name}: #{h.hostname}
+    = link_to "Edit", edit_host_path(h)
+
+= link_to "New", new_host_path

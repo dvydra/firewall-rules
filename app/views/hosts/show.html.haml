@@ -1,0 +1,12 @@
+%h1 Host details
+.name
+  %strong= "Name:"
+  = @host.name
+.location
+  %strong= "Location:"
+  = @host.location
+.hostname
+  %strong= "Host name:"
+  = @host.hostname
+
+.back= link_to "back", hosts_path
