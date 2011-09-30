@@ -1,0 +1,10 @@
+%h1 Report
+%table
+  - @hosts.each do |x|
+    %tr
+      - @hosts.each do |y|
+        %td
+          %b= "#{x.hostname} => #{y.hostname}"
+          - rules = Rule.find_all_by_source_host_id_and_target_host_id(x.id, y.id)
+          - rules.each do |r|
+            = r.source_port

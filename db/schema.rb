@@ -11,12 +11,21 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110930090903) do
+ActiveRecord::Schema.define(:version => 20110930110150) do
 
   create_table "hosts", :force => true do |t|
     t.string   "name",       :limit => 80
     t.string   "location",   :limit => 200
     t.string   "hostname",   :limit => 200
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "rules", :force => true do |t|
+    t.integer  "source_host_id"
+    t.integer  "target_host_id"
+    t.string   "source_port"
+    t.string   "target_port"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

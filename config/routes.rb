@@ -1,5 +1,7 @@
 FirewallRules::Application.routes.draw do
   resources :hosts
+  resources :rules
+  match 'reports' => 'reports#show'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

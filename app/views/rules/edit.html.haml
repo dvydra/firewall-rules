@@ -1,0 +1,7 @@
+%h1 Edit rule
+= simple_form_for @rule do |f|
+ = f.association :source_host
+ = f.association :target_host
+ = f.input :source_port
+ = f.input :target_port
+ = f.button :submit
