@@ -17,8 +17,8 @@ ActiveRecord::Schema.define(:version => 20110930110150) do
     t.string   "name",       :limit => 80
     t.string   "location",   :limit => 200
     t.string   "hostname",   :limit => 200
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
   end
 
   create_table "rules", :force => true do |t|
@@ -26,8 +26,8 @@ ActiveRecord::Schema.define(:version => 20110930110150) do
     t.integer  "target_host_id"
     t.string   "source_port"
     t.string   "target_port"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
   end
 
 end
